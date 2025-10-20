@@ -11,7 +11,7 @@ import SwiftUI
 struct hatchworks_thaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Home()
         }
     }
 }

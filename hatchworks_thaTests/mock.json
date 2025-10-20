@@ -1,0 +1,196 @@
+{
+    "amiibo": [
+        {
+            "amiiboSeries": "Animal Crossing",
+            "character": "Sandy",
+            "gameSeries": "Animal Crossing",
+            "head": "04380001",
+            "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_04380001-03000502.png",
+            "name": "Sandy",
+            "release": {
+                "au": "2016-11-10",
+                "eu": "2016-11-11",
+                "jp": "2016-11-03",
+                "na": "2016-12-02"
+            },
+            "tail": "03000502",
+            "type": "Card"
+        },
+        {
+            "amiiboSeries": "Animal Crossing",
+            "character": "Isabelle",
+            "gameSeries": "Animal Crossing",
+            "head": "01810101",
+            "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01810101-00b40502.png",
+            "name": "Isabelle - Winter",
+            "release": {
+                "au": "2015-11-21",
+                "eu": "2015-11-20",
+                "jp": "2015-10-29",
+                "na": "2016-01-22"
+            },
+            "tail": "00b40502",
+            "type": "Card"
+        },
+        {
+            "amiiboSeries": "Super Smash Bros.",
+            "character": "Sonic",
+            "gameSeries": "Sonic",
+            "head": "32000000",
+            "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_32000000-00300002.png",
+            "name": "Sonic",
+            "release": {
+                "au": "2015-01-29",
+                "eu": "2015-02-20",
+                "jp": "2015-01-22",
+                "na": "2015-02-01"
+            },
+            "tail": "00300002",
+            "type": "Figure"
+        },
+        {
+            "amiiboSeries": "Animal Crossing",
+            "character": "Ava",
+            "gameSeries": "Animal Crossing",
+            "head": "029e0001",
+            "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_029e0001-013d0502.png",
+            "name": "Ava",
+            "release": {
+                "au": "2016-03-19",
+                "eu": "2016-03-18",
+                "jp": "2016-01-14",
+                "na": "2016-03-18"
+            },
+            "tail": "013d0502",
+            "type": "Card"
+        },
+        {
+            "amiiboSeries": "Animal Crossing",
+            "character": "Blanca",
+            "gameSeries": "Animal Crossing",
+            "head": "01b30001",
+            "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01b30001-00b50502.png",
+            "name": "Blanca",
+            "release": {
+                "au": "2015-11-21",
+                "eu": "2015-11-20",
+                "jp": "2015-10-29",
+                "na": "2016-01-22"
+            },
+            "tail": "00b50502",
+            "type": "Card"
+        },
+        {
+            "amiiboSeries": "Animal Crossing",
+            "character": "Mac",
+            "gameSeries": "Animal Crossing",
+            "head": "02f80001",
+            "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_02f80001-01380502.png",
+            "name": "Mac",
+            "release": {
+                "au": "2016-03-19",
+                "eu": "2016-03-18",
+                "jp": "2016-01-14",
+                "na": "2016-03-18"
+            },
+            "tail": "01380502",
+            "type": "Card"
+        },
+        {
+            "amiiboSeries": "Animal Crossing",
+            "character": "Lucha",
+            "gameSeries": "Animal Crossing",
+            "head": "023c0001",
+            "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_023c0001-00bd0502.png",
+            "name": "Lucha",
+            "release": {
+                "au": "2015-11-21",
+                "eu": "2015-11-20",
+                "jp": "2015-10-29",
+                "na": "2016-01-22"
+            },
+            "tail": "00bd0502",
+            "type": "Card"
+        },
+        {
+            "amiiboSeries": "Animal Crossing",
+            "character": "Punchy",
+            "gameSeries": "Animal Crossing",
+            "head": "02630001",
+            "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_02630001-00750502.png",
+            "name": "Punchy",
+            "release": {
+                "au": "2015-10-03",
+                "eu": "2015-10-02",
+                "jp": "2015-07-30",
+                "na": "2015-09-25"
+            },
+            "tail": "00750502",
+            "type": "Card"
+        },
+        {
+            "amiiboSeries": "Animal Crossing",
+            "character": "Violet",
+            "gameSeries": "Animal Crossing",
+            "head": "03700001",
+            "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_03700001-015d0502.png",
+            "name": "Violet",
+            "release": {
+                "au": "2016-03-19",
+                "eu": "2016-03-18",
+                "jp": "2016-01-14",
+                "na": "2016-03-18"
+            },
+            "tail": "015d0502",
+            "type": "Card"
+        },
+        {
+            "amiiboSeries": "Super Smash Bros.",
+            "character": "Mii",
+            "gameSeries": "Mii",
+            "head": "07c00000",
+            "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_07c00000-00210002.png",
+            "name": "Mii Brawler",
+            "release": {
+                "au": "2015-09-26",
+                "eu": "2015-09-25",
+                "jp": "2015-09-10",
+                "na": "2015-11-01"
+            },
+            "tail": "00210002",
+            "type": "Figure"
+        },
+        {
+            "amiiboSeries": "Mario Sports Superstars",
+            "character": "Wario",
+            "gameSeries": "Mario Sports Superstars",
+            "head": "09c50201",
+            "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c50201-02830e02.png",
+            "name": "Wario - Baseball",
+            "release": {
+                "au": "2017-03-11",
+                "eu": "2017-03-10",
+                "jp": "2017-03-30",
+                "na": "2017-03-24"
+            },
+            "tail": "02830e02",
+            "type": "Card"
+        },
+        {
+            "amiiboSeries": "Animal Crossing",
+            "character": "Tom",
+            "gameSeries": "Animal Crossing",
+            "head": "026c0001",
+            "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_026c0001-00c30502.png",
+            "name": "Tom",
+            "release": {
+                "au": null,
+                "eu": null,
+                "jp": null,
+                "na": null
+            },
+            "tail": "00c30502",
+            "type": "Card"
+        }
+    ]
+}
