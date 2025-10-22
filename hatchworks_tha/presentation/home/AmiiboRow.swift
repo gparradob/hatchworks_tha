@@ -15,7 +15,7 @@ struct AmiiboRow: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 8, style: .continuous)
-                .fill(Color.gray.opacity(0.3))
+                .fill(Color.clear)
                 .shadow(radius: 2)
             
             HStack {

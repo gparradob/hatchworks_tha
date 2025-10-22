@@ -10,25 +10,27 @@ struct Home: View {
     @ObservedObject var vm = HomeVM(client: APIClient())
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ZStack {
                 Color(.systemBackground)
                     .edgesIgnoringSafeArea(.all)
-                ScrollView {
-                    LazyVStack {
-                        ForEach(vm.amiiboList, id: \.id) { amiibo in
-                            NavigationLink(
-                                destination: Detail(amiibo: amiibo),
-                                label: {
-                                    AmiiboRow(amiibo: amiibo)
-                                })
-                        }
+                List {
+                    ForEach(vm.amiiboList, id: \.id) { amiibo in
+                        NavigationLink(
+                            destination: Detail(amiibo: amiibo),
+                            label: {
+                                AmiiboRow(amiibo: amiibo)
+                            })
                     }
                 }
-                .padding()
+                .searchable(text: $vm.searchText)
+                .textInputAutocapitalization(.never)
+                .onChange(of: vm.searchText) {
+                    vm.filterAmiibos()
+                }
             }
             .navigationTitle(Text("Amiibo Listing Buddy"))
-            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarTitleDisplayMode(.large)
         }
     }
 }
