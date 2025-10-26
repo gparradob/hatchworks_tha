@@ -6,27 +6,23 @@
 //
 import Foundation
 
-enum APIError: Error {
-    case invalidURL
-    case noData
-    case decodingError(Error)
-    case networkError(Error)
-}
-
-protocol APIClientProt {
-    func getAmiibos(url: URL?) async throws -> [Amiibo]
-}
-
-class APIClient: APIClientProt {
-    private let APIUrl = URL(string: "https://amiiboapi.com/api/amiibo")!
+struct APIClient: ClientProtocol {
+    private let APIUrl = "https://amiiboapi.com/api/amiibo"
     
     let session = URLSession.shared
     
-    func getAmiibos(url: URL? = nil) async throws -> [Amiibo] {
-        var request = URLRequest(url: url ?? APIUrl)
+    func getAmiibos() async throws -> [Amiibo] {
+        guard let requestURL = URL(string: APIUrl) else {
+            throw APIError.invalidURL
+        }
+        var request = URLRequest(url: requestURL)
         request.cachePolicy = .returnCacheDataElseLoad
         do {
-            let (data, _) = try await session.data(for: request)
+            let (data, response) = try await session.data(for: request)
+            
+            guard let httpResponse = response as? HTTPURLResponse,(200...299).contains(httpResponse.statusCode) else {
+                throw APIError.invalidResponse
+            }
             
             do {
                 let decoded = try JSONDecoder().decode(AmiiboResult.self, from: data)

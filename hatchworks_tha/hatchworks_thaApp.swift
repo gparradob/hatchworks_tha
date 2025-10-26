@@ -11,7 +11,9 @@ import SwiftUI
 struct hatchworks_thaApp: App {
     var body: some Scene {
         WindowGroup {
-            Home()
+            ContentView()
+                .toastable()
+                .environment(AmiiboVM(client: APIClient()))
         }
     }
 }
